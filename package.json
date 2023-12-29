@@ -1,0 +1,39 @@
+{
+  "name": "redux-action-pathify",
+  "version": "1.0.0",
+  "description": "A Redux utility for generating clear and unique action type strings using a nested path approach. This library helps in avoiding duplicate action names and makes action types more readable and maintainable.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "test": "jest --verbose",
+    "build": "npm run clean && babel src --out-dir dist",
+    "lint": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talenW/redux-action-pathify.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "redux-actions",
+    "action-types",
+    "pathify",
+    "javascript"
+  ],
+  "author": "Talen Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talenW/redux-action-pathify/issues"
+  },
+  "homepage": "https://github.com/talenW/redux-action-pathify#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/plugin-transform-runtime": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1"
+  }
+}
